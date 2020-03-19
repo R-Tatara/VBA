@@ -48,5 +48,6 @@ Sub MergeCSVFiles()
         Next
         
         newWorkbook.Save
+        MsgBox "Created ""compilation.xlsx"""
     End If
 End Sub
